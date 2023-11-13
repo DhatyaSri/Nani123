@@ -5,11 +5,11 @@
 
 trigger:
 - main
-#pr:
-#- main
+pr:
+- main
 pool:
   vmImage: ubuntu-latest
-##
+##4577
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
