@@ -10,7 +10,7 @@ pr:
 
 pool:
   vmImage: ubuntu-latest
-####12345
+####1
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
