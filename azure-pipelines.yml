@@ -11,7 +11,6 @@ pr:
 pool:
   vmImage: ubuntu-latest
 
-##31263712123618
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
