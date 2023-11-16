@@ -10,7 +10,6 @@ pr:
 - main
 pool:
   vmImage: ubuntu-latest
-  #23
 
 steps:
 - script: echo Hello, world!
