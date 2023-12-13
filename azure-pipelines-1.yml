@@ -4,17 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- 123
-#3456
-
-pr:
 - main
+
 pool:
   vmImage: ubuntu-latest
 
-  #1453
-=======
-  
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
@@ -23,3 +17,4 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
